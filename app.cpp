@@ -319,6 +319,7 @@ void gameOver(){
 	if (points == 106){
 		over = true;
 	}
+//Code Overwrite 
 }
 
 //Method to display the results of the game at the ends
@@ -448,6 +449,7 @@ void reshape(int w, int h){
 
 //Main functions that controls the running of the game
 int main(int argc, char** argv){
+
 	//initialize and create the screen
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
